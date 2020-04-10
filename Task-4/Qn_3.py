@@ -2,4 +2,6 @@
 
 user = input("Enter string : ")
 list1 = [i for i in user if i.isupper() and i.isalpha()]
-print("List : ", list1)
+
+print("List of uppercase : ",list1)
+
