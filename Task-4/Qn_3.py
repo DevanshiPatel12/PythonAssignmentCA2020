@@ -2,4 +2,4 @@
 
 user = input("Enter string : ")
 list1 = [i for i in user if i.isupper() and i.isalpha()]
-print(list1)
+print("List : ",list1)
