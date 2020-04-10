@@ -13,7 +13,7 @@ def new_deco():
 decoration = main_deco(new_deco)
 decoration()
 
-# -------------------------------------- other way
+# ------------------other way
 def main_deco(function):
     def function_1():
         print("I am inside the function_1 and printing before the function()")
