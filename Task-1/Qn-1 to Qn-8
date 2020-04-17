@@ -1,0 +1,31 @@
+Qn-1. Create three variables in a single line and assign different values to them and make sure their data types are different.
+Like one is int, another one is float and the last one is a string.
+
+>>> a,B,name = 1,1.5,'Devanshi'
+>>> a
+1
+>>> B
+1.5
+>>> name
+'Devanshi'
+
+Qn-2. Create a variable of value type complex and swap it with another variable whose value is an integer.
+
+>>> a = 1
+>>> b = 1+1j
+>>> type(a)
+<class 'int'>
+>>> type(b)
+<class 'complex'>
+>>> c = b
+>>> b = a
+>>> a = c
+>>> a
+(1+1j)
+>>> b
+1
+>>> type(a)
+<class 'complex'>
+>>> type(b)
+<class 'int'>
+
