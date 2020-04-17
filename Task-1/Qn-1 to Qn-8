@@ -29,3 +29,77 @@ Qn-2. Create a variable of value type complex and swap it with another variable 
 >>> type(b)
 <class 'int'>
 
+Qn-3. Swap two numbers using the third variable as the result name and do the same task without using any third variable.
+
+>>> a,b = 10,20
+>>> print('a:',a,'b:',b)
+a: 10 b: 20
+>>> result = a
+>>> a = b
+>>> b = result
+>>> print('a:',a,'b:',b)
+a: 20 b: 10
+
+
+>>> a,b = 10,20
+>>> print('a:',a,'b:',b)
+a: 10 b: 20
+>>> a = a + b
+>>> b = a - b
+>>> a = a - b
+>>> print('a:',a,'b:',b)
+a: 20 b: 10
+
+Qn-4. Write a program to print the value given by the user by using both Python 2.x and Python 3.x Version.
+
+for Python 3.x
+>>> name = input('Enter the name : ')
+Enter the name : Devanshi
+>>> name
+'Devanshi'      ----------> type 'string'
+
+for Python 2.x
+>>> name = raw_input('Enter the name : ')
+Enter the name : Devanshi
+>>> name
+'Devanshi'      -----------> type 'string'
+
+if we use input() instead of raw_input() in Python 2.x
+>>> n = input('Enter value : ')
+Enter value : 10
+>>> n
+10              -----------> type 'int'
+
+Qn-5. Write a program to complete the task given below:
+      Ask the user to enter any 2 numbers in between 1-10 and add both of them to another variable call z.
+      Use z for adding 30 into it and print the final result by using variable result.
+
+a,b = input("Enter two numbers between 1 to 20: ").split(",")
+z = int(a) + int(b)
+result = z + 30
+print("result : ", result)
+
+Output:
+Enter two numbers between 1 to 20: 1,4
+result : 35
+
+Qn-6. Write a program to check the data type of the entered values.
+      HINT: Printed output should say -  The input value data type is: int/float/string/etc
+
+Ans. I tried this program in Python 2.7 using input() function
+     because input() function can return type of the entered value
+
+     I don’t know how to do it in Python 3.2.
+     Because in Python 3.2, any type of input will be saved as a string first.
+
+Qn-7. Create Variables using CamelCase, LadderCase and UPPERCASE.
+      (Refer:   https://capitalizemytitle.com/camel-case/) - Variable Conventions to write
+
+>>> CamelCase = 10
+>>> camelCase = 20
+>>> CAMELCASE = 30
+
+Qn-8. If one data type value is assigned to ‘a’ variable and then a different data type value is assigned to ‘a’ again.
+      Will it change the value? If Yes then Why?
+
+Ans. Yes it will change the value for variable ‘a’. Because memory location remains the same for that variable ‘a’.
