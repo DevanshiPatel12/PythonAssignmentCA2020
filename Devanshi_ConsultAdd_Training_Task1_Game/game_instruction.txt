@@ -1,0 +1,15 @@
+____________________________________________________________________________
+************ Here are the Game instructions to play this Game. *************
+
+You have to enter the matrix size and matrix in form of 1's and 0's
+Where   1 represent River
+        0 represent Land
+Example :   Matrix size is 3 :  1 1 1
+                                1 1 0
+                                0 0 1
+
+After this you have to guess the size of River. Either Horizontal or Vertical.
+Depend on the correct guess of River size, Winner will be revealed !! Enjoy !
+
+* Note: River can be formed horizontally or vertically by adjacent 1's
+_____________________________________________________________________________
